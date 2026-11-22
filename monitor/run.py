@@ -94,6 +94,22 @@ def elabora(a: dict, bd: BancaDati, cls: Classificatore, ora: str) -> dict:
     return rec
 
 
+def invia_riepilogo_richiesto() -> None:
+    """Se esiste richieste/riepilogo.json ({"dal": "AAAA-MM-GG", "al": opzionale}) invia su Telegram
+    il riepilogo degli atti inclusi (pertinenti e da verificare) gia' presenti in archivio."""
+    f = RADICE / "richieste" / "riepilogo.json"
+    if not f.exists():
+        return
+    req = json.loads(f.read_text(encoding="utf-8"))
+    dal, al = req["dal"], req.get("al") or datetime.now(TZ).date().isoformat()
+    arch = Archivio(RADICE / "docs" / "data")
+    atti = [a for a in arch.atti.values() if a["stato"] != "escluso" and dal <= a["data"] <= al]
+    sito = os.environ.get("SITO_URL") or "https://matteozoppini.github.io/atti-quinta-commissione/"
+    msg = telegram.componi_riepilogo(atti, dal, al, sito.rstrip("/") + "/")
+    print(f"Riepilogo dal {dal} al {al}: {len(atti)} atti in {len(msg)} messaggi")
+    telegram.invia(msg)
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dal", help="data iniziale AAAA-MM-GG (archivio iniziale)")
@@ -107,6 +123,7 @@ def main(argv=None) -> int:
 
     if args.telegram_test:
         telegram.trova_chat()
+        invia_riepilogo_richiesto()
         return 0
     if args.prova is not None:
         bd = BancaDati()
