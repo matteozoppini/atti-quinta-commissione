@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atti per la V Commissione · Regione Toscana</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="testata">
+  <div class="testata-in">
+    <div>
+      <h1>Atti della Giunta per la V Commissione</h1>
+      <p class="sotto">Istruzione, formazione, beni e attività culturali · delibere, decisioni, decreti del Presidente e decreti dirigenziali</p>
+    </div>
+    <div class="aggiornato" id="aggiornato">Caricamento…</div>
+  </div>
+</header>
+
+<main>
+  <section class="riepilogo" id="riepilogo" aria-label="Riepilogo"></section>
+  <section class="avvisi" id="avvisi" hidden></section>
+
+  <section class="filtri" aria-label="Filtri">
+    <div class="riga">
+      <div class="segmenti" id="f-stato" role="group" aria-label="Stato">
+        <button data-v="inclusi" class="on">Inclusi</button>
+        <button data-v="pertinente">🟢 Pertinenti</button>
+        <button data-v="verifica">🟠 Da verificare</button>
+        <button data-v="escluso">Esclusi</button>
+        <button data-v="tutti">Tutti</button>
+      </div>
+      <input type="search" id="f-testo" placeholder="Cerca in oggetto, numero, dispositivo, struttura…" aria-label="Cerca">
+    </div>
+    <div class="riga">
+      <div class="chip-gruppo" id="f-tipo" aria-label="Tipo di atto"></div>
+    </div>
+    <div class="riga piccola">
+      <label>Tema <select id="f-tema"><option value="">tutti</option></select></label>
+      <label>Struttura <select id="f-struttura"><option value="">tutte</option></select></label>
+      <label>Assessore <select id="f-assessore"><option value="">tutti</option></select></label>
+      <label>Dal <input type="date" id="f-dal"></label>
+      <label>Al <input type="date" id="f-al"></label>
+      <label class="spunta"><input type="checkbox" id="f-novita"> solo novità</label>
+      <label class="spunta"><input type="checkbox" id="f-interesse"> solo ★ di interesse</label>
+      <button class="link" id="f-azzera">azzera filtri</button>
+    </div>
+  </section>
+
+  <div class="conteggio" id="conteggio"></div>
+  <section id="elenco" class="elenco" aria-live="polite"></section>
+  <div class="altri"><button id="altri" hidden>Mostra altri</button></div>
+</main>
+
+<div class="barra-selezione" id="barra" hidden>
+  <span id="n-sel"></span>
+  <label class="spunta"><input type="checkbox" id="con-allegati"> includi allegati</label>
+  <button class="primario" id="scarica">Scarica fascicolo PDF</button>
+  <button class="link" id="sel-interesse">seleziona i ★</button>
+  <button class="link" id="deseleziona">deseleziona</button>
+  <span id="progresso" class="progresso"></span>
+</div>
+
+<footer class="piede">
+  <p>Fonte: <a href="https://www.regione.toscana.it/ricerca-atti" target="_blank" rel="noopener">Banca dati degli atti della Regione Toscana</a>.
+  Il perimetro è definito per struttura (settori, dirigenti, direzioni, assessori proponenti): vedi <a href="#" id="mostra-perimetro">criteri e perimetro</a>.
+  I ★ restano salvati in questo browser: <button class="link" id="esporta">esporta</button> · <button class="link" id="importa">importa</button><input type="file" id="file-importa" accept="application/json" hidden></p>
+</footer>
+
+<dialog id="perimetro"><div id="perimetro-testo"></div><form method="dialog"><button class="primario">Chiudi</button></form></dialog>
+
+<script src="vendor/pdf-lib.min.js" onerror="var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js';document.head.appendChild(s)"></script>
+<script src="app.js"></script>
+</body>
+</html>
