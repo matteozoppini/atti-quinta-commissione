@@ -1,0 +1,33 @@
+name: Strumenti (Telegram e prova PDF)
+
+on:
+  workflow_dispatch:
+    inputs:
+      azione:
+        description: "Cosa fare"
+        type: choice
+        options: [telegram-test, prova-pdf]
+        default: telegram-test
+      id_contenuto:
+        description: "Solo per prova-pdf: ID_CONTENUTO separati da spazio (vuoto = esempi predefiniti)"
+        required: false
+        default: ""
+
+jobs:
+  strumenti:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Esegui
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          case "${{ github.event.inputs.azione }}" in
+            telegram-test) python -m monitor.run --telegram-test ;;
+            prova-pdf) python -m monitor.run --prova ${{ github.event.inputs.id_contenuto }} ;;
+          esac
