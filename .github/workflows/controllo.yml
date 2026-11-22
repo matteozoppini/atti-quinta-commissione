@@ -1,0 +1,59 @@
+name: Controllo atti
+
+on:
+  schedule:
+    # orari UTC: 06:40, 12:40, 18:40 -> 7:40, 13:40, 19:40 in inverno (8:40, 14:40, 20:40 in estate)
+    - cron: "40 6,12,18 * * *"
+  workflow_dispatch:
+    inputs:
+      dal:
+        description: "Archivio iniziale: data di partenza AAAA-MM-GG (vuoto = controllo ordinario)"
+        required: false
+        default: ""
+      notifica:
+        description: "Inviare la notifica Telegram?"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: controllo-atti
+  cancel-in-progress: false
+
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Controllo
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SITO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.dal }}" ]; then ARGS="$ARGS --dal ${{ github.event.inputs.dal }}"; fi
+          if [ "${{ github.event.inputs.notifica }}" = "false" ]; then ARGS="$ARGS --no-notifica"; fi
+          python -m monitor.run $ARGS
+      - name: Libreria PDF per la pagina
+        run: |
+          mkdir -p docs/vendor
+          test -s docs/vendor/pdf-lib.min.js || curl -sfL https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js -o docs/vendor/pdf-lib.min.js || true
+      - name: Salva l'archivio
+        if: always()
+        run: |
+          git config user.name "monitor-atti"
+          git config user.email "monitor-atti@users.noreply.github.com"
+          git add docs/data docs/vendor
+          git diff --cached --quiet || git commit -m "Aggiornamento atti $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push
