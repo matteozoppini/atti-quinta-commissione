@@ -1,21 +1,21 @@
 {
  "commissione": "V Commissione - Istruzione, formazione, beni e attivita' culturali",
- "aggiornato": "2026-11-22T19:02+01:00",
+ "aggiornato": "2026-11-23T00:46+01:00",
  "anni": [
   2026
  ],
  "controllo": {
-  "quando": "2026-11-22T19:02+01:00",
-  "dal": "2026-11-02",
-  "al": "2026-11-22",
-  "giunta": 135,
+  "quando": "2026-11-23T00:46+01:00",
+  "dal": "2026-11-03",
+  "al": "2026-11-23",
+  "giunta": 71,
   "presidente": 9,
-  "decreti_totali": 1506,
-  "decreti_esaminati": 173,
-  "nuovi": 317,
-  "pertinenti": 98,
-  "verifica": 65,
-  "esclusi": 154
+  "decreti_totali": 1401,
+  "decreti_esaminati": 165,
+  "nuovi": 0,
+  "pertinenti": 0,
+  "verifica": 0,
+  "esclusi": 0
  },
  "novita": [
   "2026AP000306",
@@ -186,6 +186,19 @@
  "avvisi": [],
  "storico": [
   {
+   "quando": "2026-11-23T00:46+01:00",
+   "dal": "2026-11-03",
+   "al": "2026-11-23",
+   "giunta": 71,
+   "presidente": 9,
+   "decreti_totali": 1401,
+   "decreti_esaminati": 165,
+   "nuovi": 0,
+   "pertinenti": 0,
+   "verifica": 0,
+   "esclusi": 0
+  },
+  {
    "quando": "2026-11-22T19:02+01:00",
    "dal": "2026-11-02",
    "al": "2026-11-22",
@@ -270,7 +283,7 @@
    "50112": {
     "nome": "Direzione generale della Giunta regionale",
     "ufficio_bd": "DIREZIONE GENERALE DELLA GIUNTA",
-    "direttore": "escluso",
+    "direttore": "verifica",
     "nuovi_settori": "escluso"
    },
    "50129": {
