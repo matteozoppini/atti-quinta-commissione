@@ -1,0 +1,734 @@
+{
+ "direzioni": {
+  "50112": {
+   "nome": "DIREZIONE GENERALE DELLA GIUNTA REGIONALE",
+   "direttore": "PANTULIANO Paolo",
+   "ruolo": "Direttore Generale"
+  },
+  "50135": {
+   "nome": "AVVOCATURA REGIONALE",
+   "direttore": "CIARI Fabio",
+   "ruolo": "Responsabile di settore"
+  },
+  "50117": {
+   "nome": "AGRICOLTURA E SVILUPPO RURALE",
+   "direttore": "SCALACCI Roberto",
+   "ruolo": "Direttore"
+  },
+  "50118": {
+   "nome": "TUTELA DELL'AMBIENTE ED ENERGIA",
+   "direttore": "RAFANELLI Andrea",
+   "ruolo": "Direttore"
+  },
+  "50123": {
+   "nome": "ATTIVITA' PRODUTTIVE",
+   "direttore": "CACIOLI Fabio",
+   "ruolo": "Direttore"
+  },
+  "50124": {
+   "nome": "BENI, ISTITUZIONI E ATTIVITA' CULTURALI",
+   "direttore": "FARSI Gabriella",
+   "ruolo": "Direttore"
+  },
+  "50131": {
+   "nome": "COMPETITIVITA' TERRITORIALE DELLA TOSCANA E AUTORITA' DI GESTIONE",
+   "direttore": "TEDESCHI Paolo Ernesto",
+   "ruolo": "Direttore"
+  },
+  "50119": {
+   "nome": "DIFESA DEL SUOLO E PROTEZIONE CIVILE",
+   "direttore": "MASSINI Giovanni",
+   "ruolo": "Direttore"
+  },
+  "50125": {
+   "nome": "ISTRUZIONE, FORMAZIONE, RICERCA E LAVORO",
+   "direttore": "GIOVANI Francesca",
+   "ruolo": "Direttore"
+  },
+  "50121": {
+   "nome": "MOBILITA', INFRASTRUTTURE E TRASPORTO PUBBLICO LOCALE",
+   "direttore": "BECATTINI Enrico",
+   "ruolo": "Direttore"
+  },
+  "50129": {
+   "nome": "OPERE PUBBLICHE",
+   "direttore": "MAZZONI Michele",
+   "ruolo": "Direttore"
+  },
+  "50115": {
+   "nome": "ORGANIZZAZIONE, PERSONALE, GESTIONE E SICUREZZA SEDI DI LAVORO",
+   "direttore": "PALUMBO Giovanni",
+   "ruolo": "Direttore"
+  },
+  "50114": {
+   "nome": "PROGRAMMAZIONE E BILANCIO",
+   "direttore": "GIACOMELLI Paolo",
+   "ruolo": "Direttore"
+  },
+  "50116": {
+   "nome": "SANITA', WELFARE E COESIONE SOCIALE",
+   "direttore": "TORRE Marco",
+   "ruolo": "Direttore"
+  },
+  "50132": {
+   "nome": "SISTEMI INFORMATIVI, INFRASTRUTTURE TECNOLOGICHE E INNOVAZIONE",
+   "direttore": "VANNUCCINI Gianluca",
+   "ruolo": "Direttore"
+  },
+  "50122": {
+   "nome": "URBANISTICA E SOSTENIBILITA'",
+   "direttore": "IANNIELLO Aldo",
+   "ruolo": "Direttore"
+  },
+  "50134": {
+   "nome": "VALUTAZIONI AMBIENTALI E AUTORITA' DI AUDIT",
+   "direttore": "CHIODINI Carla",
+   "ruolo": "Direttore"
+  }
+ },
+ "settori": {
+  "03061": {
+   "nome": "AGENZIA PER LE ATTIVITA' DI INFORMAZIONE DEGLI ORGANI DI GOVERNO DELLA REGIONE",
+   "direzione": "50112",
+   "responsabile": "VANNINI Sandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 24434 del 18-11-2025"
+  },
+  "04505": {
+   "nome": "ATTIVITA' LEGISLATIVA E GIURIDICA. BOLLETTINO UFFICIALE DELLA REGIONE.",
+   "direzione": "50112",
+   "responsabile": "MINGIONI Massimiliano",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 8614 del 23-04-2026"
+  },
+  "06912": {
+   "nome": "ATTIVITA' LEGISLATIVA E GIURIDICA. PERSONE GIURIDICHE PRIVATE. CONTROLLO DEGLI ATTI DIRIGENZIALI.",
+   "direzione": "50112",
+   "responsabile": "SCIOLA Fabio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 8614 del 23-04-2026"
+  },
+  "05991": {
+   "nome": "CONTRATTI",
+   "direzione": "50112",
+   "responsabile": "MALVASO Ivana",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 23839  del 12-11-2025"
+  },
+  "06848": {
+   "nome": "PREVENZIONE DELLA CORRUZIONE E TRASPARENZA",
+   "direzione": "50112",
+   "responsabile": "MIGLIORINI Simona",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 20509 del 16-09-2026"
+  },
+  "06844": {
+   "nome": "RAPPORTI ISTITUZIONALI CON GLI ORGANI DELLO STATO, DELLE REGIONI E CON GLI ENTI LOCALI",
+   "direzione": "50112",
+   "responsabile": "LO PRESTI Alessandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 23542 del 05-11-2025"
+  },
+  "06768": {
+   "nome": "SETTORE COMUNICAZIONE, CERIMONIALE ED EVENTI",
+   "direzione": "50112",
+   "responsabile": "CIAMPI Paolo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 23787 del 12-11-2025"
+  },
+  "02511": {
+   "nome": "SUPPORTO ALLA DIREZIONE GENERALE AFFARI ISTITUZIONALI E DELLE AUTONOMIE LOCALI, LEGALITA' SICUREZZA E POLIZIA LOCALE, PARTECIPAZIONE, ELETTORALE.",
+   "direzione": "50112",
+   "responsabile": "BARUCCI Francesca",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 20509 del 16-09-2026"
+  },
+  "05868": {
+   "nome": "ATTIVITA' FAUNISTICO VENATORIA, PESCA IN MARE E RAPPORTI CON I GRUPPI DI AZIONE LOCALE DELLA PESCA (FLAGS). PESCA NELLE ACQUE INTERNE.",
+   "direzione": "50117",
+   "responsabile": "FERRETTI Marco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 4168 del 29-02-2024"
+  },
+  "05012": {
+   "nome": "ATTIVITA' GESTIONALE IN AGRICOLTURA SUL LIVELLO TERRITORIALE DI PISTOIA E PRATO. GESTIONE DEI RISCHI E DELLE CALAMITA' IN AGRICOLTURA. SEMPLIFICAZIONE DEI CONTROLLI DELLE IMPRESE AGRICOLE.",
+   "direzione": "50117",
+   "responsabile": "ACHENZA Laura",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "05015": {
+   "nome": "ATTIVITA' GESTIONALE IN AGRICOLTURA SUL LIVELLO TERRITORIALE DI SIENA E GROSSETO. GESTIONE DELLA PROGRAMMAZIONE LEADER. USI CIVICI.",
+   "direzione": "50117",
+   "responsabile": "VISCONTI Daniele",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "05016": {
+   "nome": "ATTIVITA' GESTIONALE SUL LIVELLO TERRITORIALE DI FIRENZE E AREZZO. INTERVENTI PER GLI UTENTI DELLE MACCHINE AGRICOLE (UMA)",
+   "direzione": "50117",
+   "responsabile": "COMPAGNINO Alessandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "05013": {
+   "nome": "ATTIVITA' GESTIONALE SUL LIVELLO TERRITORIALE DI LUCCA E MASSA. DISTRETTI RURALI, BIOLOGICI E DEL CIBO.",
+   "direzione": "50117",
+   "responsabile": "BARBIERI Gianluca",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "05960": {
+   "nome": "AUTORITA' DI GESTIONE FEASR.",
+   "direzione": "50117",
+   "responsabile": "BORGOGNI Sabina",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 20263 del 24-09-2025"
+  },
+  "05961": {
+   "nome": "FORESTAZIONE. AGROAMBIENTE, RISORSE IDRICHE NEL SETTORE AGRICOLO. CAMBIAMENTI CLIMATICI.",
+   "direzione": "50117",
+   "responsabile": "LAZZAROTTO Livia",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 24951 del 27-11-2025"
+  },
+  "05003": {
+   "nome": "GESTIONE DEGLI INTERVENTI NELL'AMBITO DELLA POLITICA AGRICOLA COMUNE (PAC) PER LA CONSULENZA , LA FORMAZIONE, L'INNOVAZIONE, I GIOVANI AGRICOLTORI E LA DIVERSIFICAZIONE DELLE ATTIVITA' AGRICOLE.",
+   "direzione": "50117",
+   "responsabile": "FABBRI Fausta",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "05962": {
+   "nome": "IMPRENDITORIA AGRICOLA, MULTIFUNZIONALITA', AGROBIODIVERSITA'. SUPPORTO GIURIDICO ALLA DIREZIONE E SANZIONAMENTO AMMINISTRATIVO.",
+   "direzione": "50117",
+   "responsabile": "DEL PIANTA Elisa",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21518 del 25-09-2024"
+  },
+  "05004": {
+   "nome": "PRODUZIONI AGRICOLE, VEGETALI E ZOOTECNICHE. PROMOZIONE. SOSTEGNO AGLI INVESTIMENTI DELLE IMPRESE AGRICOLE E AGROALIMENTARI.",
+   "direzione": "50117",
+   "responsabile": "GILIBERTI Gennaro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21303 del 28-09-2026"
+  },
+  "06849": {
+   "nome": "RETI DI COLLABORAZIONE EUROPEE. ATTIVITA' GESTIONALE IN AGRICOLTURA SUL LIVELLO TERRITORIALE DI LIVORNO E PISA",
+   "direzione": "50117",
+   "responsabile": "CECCHI Elisabetta",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 26209 del 28-11-2024"
+  },
+  "04512": {
+   "nome": "SERVIZIO FITOSANITARIO REGIONALE E DI VIGILANZA E CONTROLLO AGROFORESTALE",
+   "direzione": "50117",
+   "responsabile": "LENUZZA Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 24951 del 27-11-2025"
+  },
+  "06854": {
+   "nome": "AUTORIZZAZIONI ENERGETICHE E SERVIZIO IDRICO INTEGRATO",
+   "direzione": "50118",
+   "responsabile": "CAPPELLI Giancarlo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21760 del 27-09-2024"
+  },
+  "05106": {
+   "nome": "AUTORIZZAZIONI INTEGRATE AMBIENTALI",
+   "direzione": "50118",
+   "responsabile": "MANNUCCI Sauro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 18207 del 12-08-2026"
+  },
+  "05984": {
+   "nome": "AUTORIZZAZIONI RIFIUTI",
+   "direzione": "50118",
+   "responsabile": "RAFANELLI Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21424 del 29-09-2026"
+  },
+  "06855": {
+   "nome": "AUTORIZZAZIONI UNICHE AMBIENTALI",
+   "direzione": "50118",
+   "responsabile": "MARANGOLO Valerio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 12668 del 11-06-2026"
+  },
+  "06856": {
+   "nome": "BONIFICHE E SITI ORFANI PNRR",
+   "direzione": "50118",
+   "responsabile": "BONINSEGNI Gianfranco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21760 del 27-09-2024"
+  },
+  "05866": {
+   "nome": "POLITICHE DI ECONOMIA CIRCOLARE, GESTIONE RIFIUTI E QUALITA' DELL'ARIA",
+   "direzione": "50118",
+   "responsabile": "CASELLI Renata Laura",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21424 del 29-09-2026"
+  },
+  "06770": {
+   "nome": "TRANSIZIONE ECOLOGICA, ENERGETICA E VERIFICA CLIMATICA",
+   "direzione": "50118",
+   "responsabile": "TEI David",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21760 del 27-09-2024"
+  },
+  "06474": {
+   "nome": "ECONOMIA TERRITORIALE E PROGETTI INTEGRATI",
+   "direzione": "50123",
+   "responsabile": "DE SIERVO Lucia",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 3679 del 25-02-2025"
+  },
+  "05994": {
+   "nome": "INTERVENTI INFRASTRUTTURALI A SUPPORTO DELLO SVILUPPO ECONOMICO REGIONALE, SOCIETA' PARTECIPATE, ZONA LOGISTICA SEMPLIFICATA",
+   "direzione": "50123",
+   "responsabile": "DE LORENZO Giuseppina",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 7183 del 07-04-2026"
+  },
+  "05997": {
+   "nome": "SOSTEGNO ALLE IMPRESE",
+   "direzione": "50123",
+   "responsabile": "MODRIC Serena",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 5461 del 19-03-2025"
+  },
+  "05993": {
+   "nome": "TURISMO, COMMERCIO E SERVIZI",
+   "direzione": "50123",
+   "responsabile": "BIGI Manuela",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 6106 del 27-03-2025"
+  },
+  "03825": {
+   "nome": "FONDAZIONI REGIONALI PER LA CULTURA. TURISMO CULTURALE E SITI UNESCO. VALORIZZAZIONE DEL PATRIMONIO CULTURALE. CELEBRAZIONI E RIEVOCAZIONI STORICHE.",
+   "direzione": "50124",
+   "responsabile": "TEMPESTINI Margherita",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21757 del 27-09-2024"
+  },
+  "04950": {
+   "nome": "PATRIMONIO CULTURALE, MUSEALE E DOCUMENTARIO. ISTITUZIONI CULTURALI. ARTE CONTEMPORANEA. INVESTIMENTI PER LA CULTURA.",
+   "direzione": "50124",
+   "responsabile": "BALDI Paolo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21417 del 30-09-2026"
+  },
+  "06766": {
+   "nome": "SPETTACOLO",
+   "direzione": "50124",
+   "responsabile": "TEMPESTINI Margherita",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21417 del 30-09-2026"
+  },
+  "05836": {
+   "nome": "ATTIVITA' INTERNAZIONALI ED ATTRAZIONE DEGLI INVESTIMENTI",
+   "direzione": "50131",
+   "responsabile": "GIABBANI Filippo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21302 del 29-09-2026"
+  },
+  "05986": {
+   "nome": "AUTORITA' DI GESTIONE DEL FONDO EUROPEO DI SVILUPPO REGIONALE",
+   "direzione": "50131",
+   "responsabile": "LUCIANI Angelita",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21302 del 29-09-2026"
+  },
+  "05870": {
+   "nome": "AUTORITA' DI GESTIONE FONDO SOCIALE EUROPEO",
+   "direzione": "50131",
+   "responsabile": "CALISTRI Elena",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21302 del 29-09-2026"
+  },
+  "06888": {
+   "nome": "PIANIFICAZIONE E GESTIONE GEOTERMICA",
+   "direzione": "50131",
+   "responsabile": "DEL BONO Alessandra",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21474 del 24-09-2024"
+  },
+  "06767": {
+   "nome": "RAPPORTI ISTITUZIONALI CON GLI ORGANI ED ORGANISMI COMUNITARI.",
+   "direzione": "50131",
+   "responsabile": "BURZAGLI Silvia",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 7652 del 15-04-2025"
+  },
+  "06914": {
+   "nome": "ATTIVITA' TRASVERSALI E STRATEGICHE PER LA DIFESA DEL SUOLO E LA PROTEZIONE CIVILE",
+   "direzione": "50119",
+   "responsabile": "CHECCHI Nicola",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21642 del 26-09-2024"
+  },
+  "06048": {
+   "nome": "DIFESA DEL SUOLO",
+   "direzione": "50119",
+   "responsabile": "RADICCHI Leandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05117": {
+   "nome": "GENIO CIVILE TOSCANA NORD",
+   "direzione": "50119",
+   "responsabile": "GUALDANI Raffaele",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 15380 del 10-07-2026"
+  },
+  "05118": {
+   "nome": "GENIO CIVILE TOSCANA SUD",
+   "direzione": "50119",
+   "responsabile": "RICCIARDI Renzo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05121": {
+   "nome": "GENIO CIVILE VALDARNO CENTRALE",
+   "direzione": "50119",
+   "responsabile": "PIANI Francesco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05120": {
+   "nome": "GENIO CIVILE VALDARNO INFERIORE",
+   "direzione": "50119",
+   "responsabile": "DI CARLO Enzo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05123": {
+   "nome": "GENIO CIVILE VALDARNO SUPERIORE",
+   "direzione": "50119",
+   "responsabile": "PIANI Francesco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 14348 del 30-06-2026"
+  },
+  "05115": {
+   "nome": "IDROLOGICO E GEOLOGICO REGIONALE E CENTRO FUNZIONALE REGIONALE",
+   "direzione": "50119",
+   "responsabile": "MAZZANTI Bernardo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05124": {
+   "nome": "PROTEZIONE CIVILE REGIONALE",
+   "direzione": "50119",
+   "responsabile": "MARTELLI Fabio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05864": {
+   "nome": "SISMICA",
+   "direzione": "50119",
+   "responsabile": "GORI Luca",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "05126": {
+   "nome": "TUTELA ACQUA E COSTA",
+   "direzione": "50119",
+   "responsabile": "MASI Marco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21366 del 29-09-2026"
+  },
+  "06002": {
+   "nome": "AZIONI DI SISTEMA PER LE POLITICHE ATTIVE DEL LAVORO E DELLA FORMAZIONE",
+   "direzione": "50125",
+   "responsabile": "PECORINI Monica",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "04680": {
+   "nome": "DIRITTO ALLO STUDIO UNIVERSITARIO E SOSTEGNO ALLA RICERCA",
+   "direzione": "50125",
+   "responsabile": "BACCI Lorenzo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05872": {
+   "nome": "EDUCAZIONE E ISTRUZIONE",
+   "direzione": "50125",
+   "responsabile": "MELE Sara",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05937": {
+   "nome": "FORMAZIONE CONTINUA E PROFESSIONI",
+   "direzione": "50125",
+   "responsabile": "PAGNI Roberto",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05819": {
+   "nome": "FORMAZIONE PER L'INSERIMENTO LAVORATIVO",
+   "direzione": "50125",
+   "responsabile": "GRONDONI Gabriele",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05871": {
+   "nome": "ISTRUZIONE E FORMAZIONE PROFESSIONALE (IEFP) E ISTRUZIONE E FORMAZIONE TECNICA SUPERIORE (IFTS)",
+   "direzione": "50125",
+   "responsabile": "MONTOMOLI Maria Chiara",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05823": {
+   "nome": "LAVORO",
+   "direzione": "50125",
+   "responsabile": "CAPPELLI Simone",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "05846": {
+   "nome": "TUTELA DEI CONSUMATORI E UTENTI, POLITICHE DI GENERE, PROMOZIONE DELLA CULTURA DI PACE",
+   "direzione": "50125",
+   "responsabile": "VOLPI Daniela",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21223 del 28-09-2026"
+  },
+  "04838": {
+   "nome": "ATTIVITA' AMMINISTRATIVE PER LA MOBILITA', LE INFRASTRUTTURE E IL TRASPORTO PUBBLICO LOCALE",
+   "direzione": "50121",
+   "responsabile": "BINI Barbara",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21639 del 26-09-2024"
+  },
+  "05955": {
+   "nome": "CAVE E MINIERE",
+   "direzione": "50121",
+   "responsabile": "FIGNANI Alessandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "06884": {
+   "nome": "INFRASTRUTTURE PER LA MOBILITA' SOSTENIBILE",
+   "direzione": "50121",
+   "responsabile": "BIGIARINI Marianna",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21639 del 26-09-2024"
+  },
+  "06946": {
+   "nome": "PROGRAMMAZIONE E GESTIONE INTERVENTI PER LA VIABILITA' LOCALE E LA SICUREZZA STRADALE",
+   "direzione": "50121",
+   "responsabile": "MORELLI Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 691 del 20-01-2026"
+  },
+  "05943": {
+   "nome": "PROGRAMMAZIONE GRANDI INFRASTRUTTURE DI TRASPORTO E VIABILITA' REGIONALE",
+   "direzione": "50121",
+   "responsabile": "IERPI Marco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "04895": {
+   "nome": "TRASPORTO PUBBLICO LOCALE SU FERRO E MARITTIMO",
+   "direzione": "50121",
+   "responsabile": "CASTELLANI Laura",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 6432 del 27-03-2026"
+  },
+  "06750": {
+   "nome": "TRASPORTO PUBBLICO LOCALE SU GOMMA - OSSERVATORIO MOBILITA'",
+   "direzione": "50121",
+   "responsabile": "VALORIANI Anna",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "05940": {
+   "nome": "VIABILITA' REGIONALE SGC FI-PI-LI E AREA METROPOLITANA",
+   "direzione": "50121",
+   "responsabile": "DE CRESCENZO Antonio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "05938": {
+   "nome": "VIABILITA' REGIONALE TOSCANA COSTA. PORTI E LOGISTICA",
+   "direzione": "50121",
+   "responsabile": "MORELLI Fabrizio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "05939": {
+   "nome": "VIABILITA' REGIONALE TOSCANA SUD EST. PROGRAMMAZIONE RISANAMENTO ACUSTICO",
+   "direzione": "50121",
+   "responsabile": "GRANI Sandra",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21458 del 30-09-2026"
+  },
+  "06954": {
+   "nome": "VIABILITA' REGIONALE VALDARNO",
+   "direzione": "50121",
+   "responsabile": "FOCARDI Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 15300 del 10-07-2026"
+  },
+  "06772": {
+   "nome": "SETTORE GESTIONE E MANUTENZIONE DEL PATRIMONIO IMMOBILIARE REGIONALE. LAVORI PUBBLICI IN AMBITO SPORTIVO, CULTURALE, SCOLASTICO, ECC.",
+   "direzione": "50129",
+   "responsabile": "GALLORI Franco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 20988 del 24-09-2026"
+  },
+  "06847": {
+   "nome": "SUPPORTO TECNICO-AMMINISTRATIVO PER LA VALORIZZAZIONE DEL PATRIMONIO PUBBLICO IN AMBITO REGIONALE",
+   "direzione": "50129",
+   "responsabile": "LANTIERI Salvatore",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 4944 del 12-03-2026"
+  },
+  "04206": {
+   "nome": "AMMINISTRAZIONE DEL PERSONALE E DEL PATRIMONIO",
+   "direzione": "50115",
+   "responsabile": "GUIGLI Marialuisa",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21227 del 28-09-2026"
+  },
+  "05867": {
+   "nome": "ORGANIZZAZIONE E SVILUPPO RISORSE UMANE",
+   "direzione": "50115",
+   "responsabile": "VOLTERRANI Simona",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21227 del 28-09-2026"
+  },
+  "04194": {
+   "nome": "SERVIZIO PREVENZIONE E PROTEZIONE",
+   "direzione": "50115",
+   "responsabile": "VIGIANI Francesco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 10466 del 14-05-2026"
+  },
+  "04226": {
+   "nome": "CONTABILITA'",
+   "direzione": "50114",
+   "responsabile": "BINI Alessandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21337 del 29-09-2026"
+  },
+  "05730": {
+   "nome": "CONTROLLO FINANZIARIO , RENDICONTO, ORGANISMO DI PROGRAMMAZIONE FSC",
+   "direzione": "50114",
+   "responsabile": "BIGAZZI Paola",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21337 del 29-09-2026"
+  },
+  "04229": {
+   "nome": "CONTROLLO STRATEGICO E DI GESTIONE",
+   "direzione": "50114",
+   "responsabile": "NOCENTINI Riccardo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 22782 del 16-10-2026"
+  },
+  "05869": {
+   "nome": "POLITICHE FISCALI E RISCOSSIONE",
+   "direzione": "50114",
+   "responsabile": "FERRACANI Alessio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21337 del 29-09-2026"
+  },
+  "04961": {
+   "nome": "PROGRAMMAZIONE E FINANZA LOCALE",
+   "direzione": "50114",
+   "responsabile": "IDILI Luigi",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21337 del 29-09-2026"
+  },
+  "06852": {
+   "nome": "SOCIETÀ PARTECIPATE- ENTI DIPENDENTI",
+   "direzione": "50114",
+   "responsabile": "GUIDUCCI Anna",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 26348 del 17-12-2025"
+  },
+  "04946": {
+   "nome": "AFFARI GENERALI E SUPPORTO GIURIDICO ALLA DIREZIONE",
+   "direzione": "50116",
+   "responsabile": "FANTAPPIE' Silvia",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 27159 del 10-12-2024"
+  },
+  "04944": {
+   "nome": "ASSISTENZA FARMACEUTICA E DISPOSITIVI",
+   "direzione": "50116",
+   "responsabile": "VELO Silvia",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 14683 del 04-07-2025"
+  },
+  "04932": {
+   "nome": "ASSISTENZA OSPEDALIERA, QUALITA' E RETI CLINICHE",
+   "direzione": "50116",
+   "responsabile": "MAIELLI Michela",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 16272 del 15-07-2024"
+  },
+  "04934": {
+   "nome": "ASSISTENZA SANITARIA TERRITORIALE",
+   "direzione": "50116",
+   "responsabile": "MARINI Monica",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 5802 del 24-03-2025"
+  },
+  "04941": {
+   "nome": "BILANCI E MONITORAGGI ECONOMICI  DEL SERVIZIO SANITARIO REGIONALE",
+   "direzione": "50116",
+   "responsabile": "NERI Moraldo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 19092 del 04-09-2025"
+  },
+  "06791": {
+   "nome": "CONTROLLO ECONOMICO DI GESTIONE DEL S.S.R.",
+   "direzione": "50116",
+   "responsabile": "BIANCALANI Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 19503 del 02-09-2026"
+  },
+  "06953": {
+   "nome": "COORDINAMENTO DELLA PROGRAMMAZIONE SANITARIA E SOCIALE , AREE INTERNE E SERVIZIO CIVILE",
+   "direzione": "50116",
+   "responsabile": "CAPORALE Albino",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 7663 del 13-04-2026"
+  },
+  "06921": {
+   "nome": "GESTIONE REGIONALE DEL RISCHIO CLINICO E SICUREZZA DEL PAZIENTE",
+   "direzione": "50116",
+   "responsabile": "MAIELLI Michela",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 19522 del 02-09-2026"
+  },
+  "04767": {
+   "nome": "INCLUSIONE SOCIALE E INTEGRAZIONE SOCIO-SANITARIA",
+   "direzione": "50116",
+   "responsabile": "ZANOBINI Alberto",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 18864 del 24-08-2026"
+  },
+  "06003": {
+   "nome": "PREVENZIONE, SICUREZZA SUL LAVORO E SANITA' PUBBLICA",
+   "direzione": "50116",
+   "responsabile": "BIANCO Giovanna",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21336 del 29-09-2026"
+  },
+  "06771": {
+   "nome": "RICERCA E INVESTIMENTI IN AMBITO SANITARIO",
+   "direzione": "50116",
+   "responsabile": "NANNICINI Elisa",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21336 del 29-09-2026"
+  },
+  "05886": {
+   "nome": "RISORSE UMANE SSR, FORMAZIONE, RELAZIONI SINDACALI",
+   "direzione": "50116",
+   "responsabile": "LIPPI Luciano",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 25520 del 02-12-2025"
+  },
+  "06955": {
+   "nome": "SANITA' ANIMALE, SICUREZZA ALIMENTARE E SALUTE DELL'ECOSISTEMA",
+   "direzione": "50116",
+   "responsabile": "BIANCO Giovanna",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21336 del 29-09-2026"
+  },
+  "04943": {
+   "nome": "SANITA' DIGITALE E INNOVAZIONE",
+   "direzione": "50116",
+   "responsabile": "BELARDINELLI Andrea",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21336 del 29-09-2026"
+  },
+  "05996": {
+   "nome": "WELFARE E INNOVAZIONE SOCIALE",
+   "direzione": "50116",
+   "responsabile": "SALVI Alessandro",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21336 del 29-09-2026"
+  },
+  "06845": {
+   "nome": "SERVIZI DIGITALI E INTEGRAZIONE DATI. UFFICIO REGIONALE DI STATISTICA",
+   "direzione": "50132",
+   "responsabile": "BORSELLI Leonardo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21222 del 25-09-2026"
+  },
+  "06795": {
+   "nome": "SERVIZI IT E INFRASTRUTTURE DIGITALI INTERNE",
+   "direzione": "50132",
+   "responsabile": "CALDINI Marco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 19478 del 11-09-2025"
+  },
+  "04421": {
+   "nome": "SISTEMA CLOUD TOSCANO, INFRASTRUTTURE DIGITALI E PIATTAFORME ABILITANTI",
+   "direzione": "50132",
+   "responsabile": "PAPIANI Sergio",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21222 del 25-09-2026"
+  },
+  "04422": {
+   "nome": "SISTEMA INFORMATIVO,  ARCHITETTURA APPLICATIVA E CYBER SECURITY",
+   "direzione": "50132",
+   "responsabile": "BORSELLI Leonardo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21222 del 25-09-2026"
+  },
+  "04412": {
+   "nome": "EDILIZIA, VIGILANZA E VALUTAZIONI PAESAGGISTICHE DEGLI INTERVENTI",
+   "direzione": "50122",
+   "responsabile": "CARLETTI Marco",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21213 del 28-09-2026"
+  },
+  "06846": {
+   "nome": "INVESTIMENTI IN MATERIA DI GOVERNO DEL TERRITORIO",
+   "direzione": "50122",
+   "responsabile": "VIGNAROLI Enrico",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 10516 del 07-05-2026"
+  },
+  "04425": {
+   "nome": "POLITICHE ABITATIVE",
+   "direzione": "50122",
+   "responsabile": "VIGNAROLI Enrico",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 10941 del 20-05-2026"
+  },
+  "05865": {
+   "nome": "TUTELA DELLA NATURA E DEL MARE",
+   "direzione": "50122",
+   "responsabile": "RUBERTI Gilda",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21213 del 28-09-2026"
+  },
+  "03865": {
+   "nome": "URBANISTICA, PAESAGGIO, SIT",
+   "direzione": "50122",
+   "responsabile": "SCRASCIA Domenico Bartolo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21213 del 28-09-2026"
+  },
+  "05348": {
+   "nome": "AUDIT",
+   "direzione": "50134",
+   "responsabile": "PISANI Elvira",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 21427 del 30-09-2026"
+  },
+  "06889": {
+   "nome": "VAS E VINCA",
+   "direzione": "50134",
+   "responsabile": "SCRASCIA Domenico Bartolo",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 26931 del 23-12-2025"
+  },
+  "04788": {
+   "nome": "VIA",
+   "direzione": "50134",
+   "responsabile": "CHIODINI Carla",
+   "incarico": "DECR. DIRIG. CENTRO DIREZIONALE n. 11458 del 25-05-2026"
+  }
+ },
+ "aggiornato": "2026-11-22T19:02+01:00"
+}
