@@ -1,0 +1,74 @@
+{
+  "_nota": "Perimetro della V Commissione consiliare (Istruzione, formazione, beni e attivita' culturali). Il perimetro e' definito per STRUTTURA (codici dell'organigramma della Giunta), non per parole chiave. stato: 'pertinente' = incluso; 'verifica' = incluso ma da controllare (competenze miste). Tutto cio' che e' incerto finisce in 'verifica', mai scartato.",
+
+  "commissione": "V Commissione - Istruzione, formazione, beni e attivita' culturali",
+
+  "direzioni": {
+    "50125": {
+      "nome": "Istruzione, formazione, ricerca e lavoro",
+      "ufficio_bd": "ISTRUZIONE, FORMAZIONE, RICERCA E LAVORO",
+      "direttore": "verifica",
+      "nuovi_settori": "verifica"
+    },
+    "50124": {
+      "nome": "Beni, istituzioni, attivita' culturali e sport",
+      "ufficio_bd": "BENI, ISTITUZIONI",
+      "direttore": "pertinente",
+      "nuovi_settori": "verifica"
+    },
+    "50112": {
+      "nome": "Direzione generale della Giunta regionale",
+      "ufficio_bd": "DIREZIONE GENERALE DELLA GIUNTA",
+      "direttore": "escluso",
+      "nuovi_settori": "escluso"
+    },
+    "50129": {
+      "nome": "Opere pubbliche",
+      "ufficio_bd": "OPERE PUBBLICHE",
+      "direttore": "escluso",
+      "nuovi_settori": "escluso"
+    },
+    "50131": {
+      "nome": "Competitivita' territoriale della Toscana e autorita' di gestione",
+      "ufficio_bd": "COMPETITIVITA",
+      "direttore": "escluso",
+      "nuovi_settori": "escluso"
+    }
+  },
+
+  "settori": {
+    "05872": {"stato": "pertinente", "tema": "Educazione e istruzione"},
+    "04680": {"stato": "pertinente", "tema": "Diritto allo studio, universita' e ricerca"},
+    "05937": {"stato": "pertinente", "tema": "Formazione professionale"},
+    "05819": {"stato": "pertinente", "tema": "Formazione professionale"},
+    "05871": {"stato": "pertinente", "tema": "IeFP e IFTS"},
+    "06002": {"stato": "verifica",   "tema": "Formazione e politiche attive del lavoro (misto)"},
+    "03825": {"stato": "pertinente", "tema": "Fondazioni culturali, Unesco, rievocazioni"},
+    "04950": {"stato": "pertinente", "tema": "Patrimonio culturale, musei, archivi, biblioteche"},
+    "06766": {"stato": "pertinente", "tema": "Spettacolo"},
+    "03061": {"stato": "pertinente", "tema": "Informazione"},
+    "06768": {"stato": "verifica",   "tema": "Comunicazione, cerimoniale ed eventi (misto)"},
+    "06772": {"stato": "verifica",   "tema": "Lavori pubblici in ambito culturale, scolastico, sportivo (misto)"},
+    "05870": {"stato": "verifica",   "tema": "Fondo sociale europeo (misto)"}
+  },
+
+  "settori_esclusi": {
+    "_nota": "Settori delle direzioni Istruzione e Beni esplicitamente fuori perimetro. Qualunque ALTRO settore nuovo di queste direzioni viene incluso come 'verifica'.",
+    "05823": "Lavoro",
+    "05846": "Tutela dei consumatori e utenti, politiche di genere, promozione della cultura di pace"
+  },
+
+  "assessori_segnalati": ["CRISTINA MANETTI", "ALESSANDRA NARDINI", "ALBERTO LENZI"],
+
+  "giunta_strutture_interessate": {
+    "pertinente": ["BENI, ISTITUZIONI"],
+    "verifica": ["ISTRUZIONE, FORMAZIONE"]
+  },
+
+  "presidente_strutture": {
+    "pertinente": ["BENI, ISTITUZIONI"],
+    "verifica": ["ISTRUZIONE, FORMAZIONE", "DIREZIONE GENERALE", "GABINETTO", "OPERE PUBBLICHE", "COMPETITIVITA"]
+  },
+
+  "tutte_le_direzioni": ["50112", "50135", "50117", "50118", "50123", "50124", "50131", "50119", "50125", "50121", "50129", "50115", "50114", "50116", "50132", "50122", "50134"]
+}
