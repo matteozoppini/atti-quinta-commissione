@@ -58,6 +58,33 @@ def componi(nuovi: list[dict], avvisi: list[str], sito: str, quando: str) -> lis
     return messaggi
 
 
+def componi_riepilogo(atti: list[dict], dal: str, al: str, sito: str) -> list[str]:
+    """Riepilogo compatto (una riga per atto) degli atti inclusi in un periodo."""
+    e = html.escape
+    pert = sum(1 for a in atti if a["stato"] == "pertinente")
+    righe = [f"<b>V Commissione · riepilogo dal {_data(dal)} al {_data(al)}</b>",
+             f"{len(atti)} atti: {pert} 🟢 pertinenti, {len(atti) - pert} 🟠 da verificare", ""]
+    for fonte in ("G", "P", "D"):
+        gruppo = sorted((a for a in atti if a["fonte"] == fonte), key=lambda x: (x["data"], x["numero"]), reverse=True)
+        if not gruppo:
+            continue
+        righe.append(f"<b>{ETICHETTE_FONTE[fonte]} ({len(gruppo)})</b>")
+        for a in gruppo:
+            righe.append(f"{ICONA.get(a['stato'], '')} <a href=\"{sito}#atto={a['codice']}\">{e(a['tipo'])} {e(a['numero'])}</a> "
+                         f"{_data(a['data'])[:5]} · {e(a['oggetto'][:110])}")
+        righe.append("")
+    righe.append(f"<a href=\"{sito}\">Apri la pagina di consultazione</a>")
+    messaggi, corrente = [], ""
+    for r in righe:
+        if len(corrente) + len(r) + 1 > MAX:
+            messaggi.append(corrente)
+            corrente = ""
+        corrente += r + "\n"
+    if corrente.strip():
+        messaggi.append(corrente)
+    return messaggi
+
+
 def invia(messaggi: list[str]) -> bool:
     token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat:
