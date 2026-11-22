@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 MAX_TENTATIVI = 5
+VERSIONE_REGOLE = 2  # aumentandola, gli atti gia' in archivio vengono riletti e riclassificati (senza notifica)
 
 
 class Archivio:
@@ -25,9 +26,11 @@ class Archivio:
 
     def da_elaborare(self, codice: str) -> bool:
         a = self.atti.get(codice)
-        return a is None or (a.get("errore") and a.get("tentativi", 0) < MAX_TENTATIVI)
+        return (a is None or a.get("versione", 1) < VERSIONE_REGOLE
+                or (a.get("errore") and a.get("tentativi", 0) < MAX_TENTATIVI))
 
     def metti(self, rec: dict) -> None:
+        rec["versione"] = VERSIONE_REGOLE
         vecchio = self.atti.get(rec["codice"])
         if vecchio:
             rec["prima_vista"] = vecchio.get("prima_vista", rec.get("prima_vista"))

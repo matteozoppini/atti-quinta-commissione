@@ -72,11 +72,21 @@ def frontespizio(pagine: list[str]) -> dict:
 
     # Atti di Giunta: "Proponente" seguito da assessori e direzione
     prop = _blocco(r"Proponente", t)
-    if prop:
+    if prop:  # le righe dopo una DIREZIONE che va a capo sono la sua continuazione
+        unite: list[str] = []
+        for riga in prop:
+            if unite and unite[-1].upper().startswith(("DIREZIONE", "SETTORE")) and not riga.upper().startswith(("DIREZIONE", "SETTORE")):
+                unite[-1] += " " + riga
+            else:
+                unite.append(riga)
+        prop = unite
         fr["proponenti"] = [p for p in prop if not p.upper().startswith("DIREZIONE") and p.isupper()]
         fr["direzioni"] = [p for p in prop if p.upper().startswith("DIREZIONE")]
     fr["dirigente_responsabile"] = _nome_persona(_valore_dopo(r"Dirigente\s+Responsabile", t))
-    fr["direttore"] = _nome_persona(_valore_dopo(r"(?<![A-Za-z])Direttore(?!\s+Generale)", t))
+    fr["direttore"] = (_nome_persona(_valore_dopo(r"(?<![A-Za-z])Direttore(?!\s+Generale)", t))
+                       or _nome_persona(_valore_dopo(r"(?<![A-Za-z])Direttore\s+Generale", t)))
+    if fr["direttore"].lower().startswith(("della ", "del ", "di ")):
+        fr["direttore"] = ""
 
     strutt = _blocco(r"STRUTTURE\s+INTERESSATE", t,
                      fine=r"(?:Delibera|Decisione|Comunicazione|Proposta|Il presente|ALLEGATI|Allegati|LA GIUNTA)")
