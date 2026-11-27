@@ -1,21 +1,21 @@
 {
  "commissione": "V Commissione - Istruzione, formazione, beni e attivita' culturali",
- "aggiornato": "2026-11-26T18:15+01:00",
+ "aggiornato": "2026-11-27T02:54+01:00",
  "anni": [
   2026
  ],
  "controllo": {
-  "quando": "2026-11-26T18:15+01:00",
-  "dal": "2026-11-06",
-  "al": "2026-11-26",
+  "quando": "2026-11-27T02:54+01:00",
+  "dal": "2026-11-07",
+  "al": "2026-11-27",
   "giunta": 71,
   "presidente": 9,
-  "decreti_totali": 1504,
-  "decreti_esaminati": 178,
-  "nuovi": 13,
-  "pertinenti": 8,
-  "verifica": 3,
-  "esclusi": 2
+  "decreti_totali": 1375,
+  "decreti_esaminati": 159,
+  "nuovi": 0,
+  "pertinenti": 0,
+  "verifica": 0,
+  "esclusi": 0
  },
  "novita": [
   "2026AD029281",
@@ -33,6 +33,19 @@
  "novita_quando": "2026-11-26T18:15+01:00",
  "avvisi": [],
  "storico": [
+  {
+   "quando": "2026-11-27T02:54+01:00",
+   "dal": "2026-11-07",
+   "al": "2026-11-27",
+   "giunta": 71,
+   "presidente": 9,
+   "decreti_totali": 1375,
+   "decreti_esaminati": 159,
+   "nuovi": 0,
+   "pertinenti": 0,
+   "verifica": 0,
+   "esclusi": 0
+  },
   {
    "quando": "2026-11-26T18:15+01:00",
    "dal": "2026-11-06",
